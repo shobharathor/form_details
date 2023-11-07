@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My_Form</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Personal Details</legend>
+        <form>
+          <label for="fName"
+            >First Name : <input type="text" name="" id="fName" required
+          /></label>
+          <br /><br />
+          <label for="mName"
+            >Middle Name : <input type="text" name="" id="mName"
+          /></label>
+          <br /><br />
+          <label for="lName"
+            >Last Name : <input type="text" name="" id="lName" required
+          /></label>
+          <br /><br />
+          <label for="courses"
+            >Courses :
+            <select name="" id="courses">
+              <option value="">Course</option>
+              <option value="">B.C.A</option>
+              <option value="">M.C.A.</option>
+              <option value="">M.Tech.</option>
+              <option value="">B.Sc.</option>
+              <option value="">B.E.D.</option>
+            </select></label
+          ><br /><br />
+          <label for="gender">Gender : </label>
+          <br />
+          <label for="male"
+            ><input type="radio" name="gender" id="male" /> Male</label
+          ><br />
+          <label for="female"
+            ><input type="radio" name="gender" id="female" /> Female</label
+          ><br />
+          <label for="others"
+            ><input type="radio" name="gender" id="others" /> Others</label
+          ><br /><br />
+          <label for="dob"
+            >DOB <input type="datetime-local" name="" id="dob" /></label
+          ><br /><br />
+          <label for="phone"
+            >Phone
+            <input
+              type="text"
+              name=""
+              placeholder="+91"
+              size="1"
+              disabled />&nbsp;<input
+              type="text"
+              name=""
+              id="phone"
+              maxlength="10"
+              size="7"
+              required
+          /></label>
+          <br /><br />
+          <label for="address"
+            >Address : <br /><textarea
+              name=""
+              id="address"
+              cols="50"
+              rows="5"
+            ></textarea>
+          </label>
+          <br /><br />
+          <label for="email"
+            >E-mail : <input type="email" name="" id="email" required
+          /></label>
+          <br /><br />
+          <label for="password"
+            >Password : <input type="password" name="" id="password" required
+          /></label>
+          <br /><br />
+          <label for="re-password"
+            >Re-enter Password :
+            <input type="password" name="" id="re-password" required
+          /></label>
+          <br /><br />
+          <label for="tnc"
+            ><input type="checkbox" name="" id="tnc" required /> Agree to terms
+            and conditions</label
+          ><br /><br />
+          <label for="file"
+            >Choose File <input type="file" name="" id="file" /></label
+          ><br /><br />
+          <label for="color"
+            >Choose Color <input type="color" name="" id="color" /></label
+          ><br /><br />
+          <input type="reset" />
+          <input type="submit" value="Submit" />
+        </form>
+      </fieldset>
+    </form>
+  </body>
+</html>
